@@ -1,0 +1,10 @@
+input:focus{
+    border: 5px solid red;
+}
+
+.Block{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
