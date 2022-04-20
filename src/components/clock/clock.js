@@ -8,9 +8,10 @@ class Clock extends Component{
         }
     }
     componentDidMount() {
-        this.timer = setInterval((
-            ()=>this.tick()
-        ),1000)
+        let that = this
+        this.timer = setInterval(()=>{
+            this.tick()
+        },1000)
     }
     componentWillUnmount() {
         clearInterval(this.timer)

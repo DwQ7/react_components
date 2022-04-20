@@ -1,7 +1,7 @@
 import React, {Suspense} from "react";
 import {BrowserRouter, Route , Routes} from "react-router-dom";
 import NavBar from "../components/navbar";
-import Home from "../pages/Home";
+import Home from "@/pages/Home";
 import routerRender from "./routerRender";
 import routes from "./config";
 
