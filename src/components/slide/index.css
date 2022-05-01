@@ -1,0 +1,8 @@
+.slideBack{
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    position: absolute;
+    /*left: 0;*/
+    transition: left linear .3s,transform linear .3s;
+}
